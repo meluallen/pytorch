@@ -9,3 +9,4 @@ requests
 six  # dependency chain: NNPACK -> PeachPy -> six
 typing-extensions>=4.10.0
 pip  # not technically needed, but this makes setup.py invocation work
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
